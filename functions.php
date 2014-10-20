@@ -22,7 +22,7 @@
  */
 function sendPushNotification($mesaj = "", $display = 0, $devices = array(), $id = 0, $badge = 0){
 
-    requireFile("class.pushNotification.php");
+    require("includes/class.pushNotification.php");
     $pushObj = new pushNotification();
 
     //hatalı display geldi ise default profili açtıralım
