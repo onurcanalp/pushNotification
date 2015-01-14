@@ -1,5 +1,5 @@
  <?php
- *
+ /*
  * Push Notification
  *
  * m: mesaj
